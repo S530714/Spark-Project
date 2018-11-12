@@ -24,7 +24,7 @@ The following command is used to get the total word count in a text file.
 > val inputFile = sc.textFile("C:/44517/titanic_sample/titanic.txt")
 ```
 
-The following command is used to find the word count of each word in a text file.
+The following command is used to find the word count of each word in a text file using a space seperator.
 
 ```
 >val counts = inputFile.flatMap(line => line.split(" ")).map(word => (word,1)).reduceByKey(_ + _);
