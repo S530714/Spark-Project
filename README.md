@@ -1,6 +1,6 @@
 # Spark-Project
 
-## About Me and the Objective of your Project
+## About Me and the Objective of our Project
 
 I am Anusha Chowdary Kollu pursuing my masters in Northwest missouri state university. I am doing this project as a part of my "BigData" course. The Objective of the project is to find the most commonly used words using the titanic story review. The overall project is done using spark.
 
